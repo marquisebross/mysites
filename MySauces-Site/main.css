@@ -1,0 +1,139 @@
+
+
+
+/* search icon */
+.btn {
+    border: 0;
+    background-color: rgb(196, 16, 16);
+    font-family: RocknRoll One;
+    box-shadow: 7px 7px 8px black;
+}
+
+
+
+
+
+/* makes icon touch search bar */
+.mr-sm-2, .mx-sm-2 {
+    margin-right: 0rem!important;
+}
+
+/* navbar color */
+ .bg-light  {
+    /* background-color: rgb(0, 0, 0)!important; */
+background-image: url("https://designshack.net/wp-content/uploads/Slate-Texture-BW-Background.jpg");
+}
+ 
+/* navbar hover links */
+.navbar-light .navbar-nav .nav-link:hover {
+    color: goldenrod; 
+
+    
+}
+
+/* navbar link color */
+.navbar-light .navbar-nav .nav-link {
+    color: #ffffff;
+    font-family: Heebo;
+   
+}
+
+/* homelink active color */
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #ffffff;
+}
+
+.navbar-light .navbar-text  {
+    color: #ffffff;
+    text-decoration: none;
+}
+   
+    
+.jumbotron{
+    background-image: url("https://wealthsriches.com/wp-content/uploads/2017/12/yellow-and-red-scotch-bonnet-chili-peppers-in-wood-YWNY2B4-scaled.jpg");
+    background-size: cover;
+    color:black;
+    font-family: Heebo;
+    background-position-y: -20px;
+    height: 500px;
+}
+
+/* centers all text on jumbotron */
+    #center-stuff{
+        text-align: center;
+        text-shadow: .5px .5px 5px #fc5617;
+    }
+
+
+    h1{
+font-family: RocknRoll One;
+text-shadow: none;
+    }
+
+
+    body{
+        background-image: url("https://designshack.net/wp-content/uploads/Slate-Texture-BW-Background.jpg");
+        background-size: cover;
+    }
+
+
+
+
+#ig{
+    background-color: transparent;
+    
+}
+
+
+.btn-outline-light:hover {
+    color: #ffffff;
+    background-color: #1e7e34;
+    border-color: #f8f9fa;
+    
+}
+    
+.bg-dark {
+    background-color: transparent!important;
+}
+
+.about{
+    text-align: justify;
+    line-height: 150%;
+    color: white;
+    font-family:Heebo;
+    font-size: 150%;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+
+.rotate{
+width: 400px;
+height: 250px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 50px;
+margin-bottom: 60px;
+animation: rotation 5s infinite linear;
+
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+
+  .comingsoon{
+    width: 600px;
+height: 600px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 10px;
+margin-bottom: 10px;
+  }
